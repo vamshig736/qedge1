@@ -19,4 +19,15 @@ public class CallingMethodsInSameClass
 	public static void printTwo() {
 		printOne();
 		printOne();
-	}
+	
+# new changesd for feature301 by vamshi
+// pre: list != null
+	// post: return sum of elements
+	// uses enhanced for loop
+	public static int sumListEnhanced(int[] list)
+	{	int total = 0;
+		for(int val : list)
+		{	total += val;
+		}
+		return total;
+}
